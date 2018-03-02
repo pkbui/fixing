@@ -1,0 +1,8 @@
+start local server: bin/rails server
+view at http://localhost:3000
+
+heroku create
+git push heroku master
+git remote add (remotename) (url)
+git remote -v
+heroku run rake db:migrate
